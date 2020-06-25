@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xliff version="1.1">
+    <file source-language="en" target-language="de">
+        <body>
+            <trans-unit id="CTE.citation">
+                <source>Citation</source>
+                <target>Zitat</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
