@@ -9,7 +9,6 @@
                 <source>Ciation source</source>
                 <target>Zitat-Quelle</target>
             </trans-unit>
-            </trans-unit>
             <trans-unit id="tl_rt_monitor.fragment.1">
                 <source>URL-Fragment to identify the source.</source>
                 <target>URL-Fragment um die Quelle zu erkennen.</target>
