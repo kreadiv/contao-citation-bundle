@@ -2,11 +2,9 @@
 
 <?php $this->block('content'); ?>
 
-<div class="<?php echo $this->class; ?> block" <?php echo $this->cssID; ?><?php if ($this->style) : ?> style="<?php echo $this->style; ?>" <?php endif; ?>>
-    <blockquote>
-        <p><?php echo $this->citation; ?></p>
-        <footer><cite><?php echo $this->citation_src; ?></cite></footer>
-    </blockquote>
-</div>
+<blockquote>
+    <p><?= $this->citation; ?></p>
+    <footer><cite><?= $this->citation_src; ?></cite></footer>
+</blockquote>
 
 <?php $this->endblock(); ?>
