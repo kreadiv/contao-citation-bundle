@@ -1,3 +1,3 @@
 <?php
 
-$GLOBALS['TL_CTE']['citation'] = 'Kreadiv\ContaoCitationBundle\Element\CitationElement';
+$GLOBALS['TL_CTE']['citation']['citation'] = 'Kreadiv\ContaoCitationBundle\Element\CitationElement';
