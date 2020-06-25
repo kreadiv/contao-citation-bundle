@@ -5,17 +5,19 @@ $GLOBALS['TL_DCA']['tl_content']['palettes']['citation'] = '{type_legend},type,c
 
 // Fields
 $GLOBALS['TL_DCA']['tl_content']['fields']['citation'] = [
-    'label'       => &$GLOBALS['TL_LANG']['tl_content']['citation'],
+    'label'     => &$GLOBALS['TL_LANG']['tl_content']['citation'],
     'exclude'   => true,
     'search'    => true,
     'inputType' => 'textarea',
-    'eval'      => array('mandatory' => true, 'tl_class' => 'long', 'style' => 'height:5em;')
+    'eval'      => ['rte' => 'tinyMCE', 'rows' => 6, 'tl_class' => 'clr'],
+    'sql'       => 'mediumtext NULL'
 ];
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['citation_src'] = [
-    'label'       => &$GLOBALS['TL_LANG']['tl_content']['citation_src'],
+    'label'     => &$GLOBALS['TL_LANG']['tl_content']['citation_src'],
     'exclude'   => true,
     'search'    => true,
     'inputType' => 'text',
-    'eval'      => array('maxlength' => 255, 'tl_class' => 'long')
+    'eval'      => ['maxlength' => 255, 'tl_class' => 'long'],
+    'sql'       => 'varchar(255) NOT NULL default ""'
 ];
