@@ -1,7 +1,8 @@
 {
     "name": "kreadiv/contao-citation-bundle",
     "description": "Citation as content element.",
-    "homepage": "https://www.kreadiv.de",
+    "homepage": "https://www.wenzel-webdesign.de",
+    "license": "LGPL-3.0-or-later",
     "type": "contao-bundle",
     "require": {
         "php": ">=7.1",
