@@ -1,0 +1,27 @@
+{
+    "name": "kreadiv/contao-citation-bundle",
+    "description": "Citation as content element.",
+    "homepage": "https://www.kreadiv.de",
+    "type": "contao-bundle",
+    "require": {
+        "php": ">=7.1",
+        "contao/core-bundle": "~4.9"
+    },
+    "extra": {
+        "contao-manager-plugin": "Kreadiv\\ContaoCitationBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kreadiv\\ContaoCitationBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
+        ]
+    }
+}
