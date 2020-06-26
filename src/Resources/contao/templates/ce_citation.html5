@@ -3,7 +3,7 @@
 <?php $this->block('content'); ?>
 
 <blockquote>
-    <p><?= $this->citation; ?></p>
+    <?= $this->citation; ?>
     <footer><cite><?= $this->citation_src; ?></cite></footer>
 </blockquote>
 
