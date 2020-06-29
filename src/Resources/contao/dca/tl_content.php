@@ -19,5 +19,5 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['citation_src'] = [
     'search'    => true,
     'inputType' => 'text',
     'eval'      => ['maxlength' => 255, 'tl_class' => 'long'],
-    'sql'       => 'varchar(255) NOT NULL default ""'
+    'sql'       => 'varchar(255) NULL'
 ];
