@@ -2,9 +2,11 @@
 
 <?php $this->block('content'); ?>
 
-<blockquote>
+<blockquote<?php if (!empty($this->citation_src_url)): ?> cite="<?= $this->citation_src_url ?>"<?php endif; ?>>
     <?= $this->citation; ?>
-    <footer><cite><?= $this->citation_src; ?></cite></footer>
+    <footer>
+        <cite><?= $this->citation_src_text; ?></cite>
+    </footer>
 </blockquote>
 
 <?php $this->endblock(); ?>

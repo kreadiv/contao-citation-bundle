@@ -5,9 +5,21 @@
                 <source>Citation</source>
                 <target>Zitat</target>
             </trans-unit>
-            <trans-unit id="tl_content.citation_src.0">
-                <source>Ciation source</source>
-                <target>Zitat-Quelle</target>
+            <trans-unit id="tl_content.citation_src_text.0">
+                <source>Source name</source>
+                <target>Quelle Name</target>
+            </trans-unit>
+            <trans-unit id="tl_content.citation_src_text.1">
+                <source>Text</source>
+                <target>Text</target>
+            </trans-unit>
+            <trans-unit id="tl_content.citation_src_url.0">
+                <source>Source url</source>
+                <target>Quellen-URL</target>
+            </trans-unit>
+            <trans-unit id="tl_content.citation_src_url.1">
+                <source>Link to the author (e.g. Wikipedia page)</source>
+                <target>Link zum Urheber (z.B. Wikipedia-Seite)</target>
             </trans-unit>
         </body>
     </file>
