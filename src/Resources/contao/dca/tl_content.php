@@ -26,7 +26,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['citation_src_url'] = [
     'label'     => &$GLOBALS['TL_LANG']['tl_content']['citation_src_url'],
     'exclude'   => true,
     'search'    => true,
-    'inputType' => 'url',
+    'inputType' => 'text',
     'eval'      => ['maxlength' => 255, 'tl_class' => 'w50'],
     'sql'       => 'varchar(255) NULL'
 ];

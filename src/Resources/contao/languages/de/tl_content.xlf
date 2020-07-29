@@ -10,8 +10,8 @@
                 <target>Quelle Name</target>
             </trans-unit>
             <trans-unit id="tl_content.citation_src_text.1">
-                <source>Text</source>
-                <target>Text</target>
+                <source>Name of the author</source>
+                <target>Name des Urhebers</target>
             </trans-unit>
             <trans-unit id="tl_content.citation_src_url.0">
                 <source>Source url</source>
